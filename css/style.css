@@ -1,0 +1,397 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Medium.eot');
+    src: local('Raleway Medium'), local('Raleway-Medium'),
+    url('../fonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Raleway-Medium.woff2') format('woff2'),
+    url('../fonts/Raleway-Medium.woff') format('woff'),
+    url('../fonts/Raleway-Medium.ttf') format('truetype'),
+    url('../fonts/Raleway-Medium.svg#Raleway-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts.Raleway-SemiBold.eot');
+    src: local('Raleway SemiBold'), local('Raleway-SemiBold'),
+    url('../fonts/Raleway-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Raleway-SemiBold.woff2') format('woff2'),
+    url('../fonts/Raleway-SemiBold.woff') format('woff'),
+    url('../fonts/Raleway-SemiBold.ttf') format('truetype'),
+    url('../fonts/Raleway-SemiBold.svg#Raleway-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-ExtraLight.eot');
+    src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'),
+    url('../fonts/Raleway-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Raleway-ExtraLight.woff2') format('woff2'),
+    url('../fonts/Raleway-ExtraLight.woff') format('woff'),
+    url('../fonts/Raleway-ExtraLight.ttf') format('truetype'),
+    url('../fonts/Raleway-ExtraLight.svg#Raleway-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Black.eot');
+    src: local('Raleway Black'), local('Raleway-Black'),
+    url('../fonts/Raleway-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Raleway-Black.woff2') format('woff2'),
+    url('../fonts/Raleway-Black.woff') format('woff'),
+    url('../fonts/Raleway-Black.ttf') format('truetype'),
+    url('../fonts/Raleway-Black.svg#Raleway-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Light.eot');
+    src: local('Raleway Light'), local('Raleway-Light'),
+    url('../fonts/Raleway-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Raleway-Light.woff2') format('woff2'),
+    url('../fonts/Raleway-Light.woff') format('woff'),
+    url('../fonts/Raleway-Light.ttf') format('truetype'),
+    url('../fonts/Raleway-Light.svg#Raleway-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Bold.eot');
+    src: local('Raleway Bold'), local('Raleway-Bold'),
+    url('../fonts/Raleway-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Raleway-Bold.woff2') format('woff2'),
+    url('../fonts/Raleway-Bold.woff') format('woff'),
+    url('../fonts/Raleway-Bold.ttf') format('truetype'),
+    url('../fonts/Raleway-Bold.svg#Raleway-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-ExtraBold.eot');
+    src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'),
+    url('../fonts/Raleway-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Raleway-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Raleway-ExtraBold.woff') format('woff'),
+    url('../fonts/Raleway-ExtraBold.ttf') format('truetype'),
+    url('../fonts/Raleway-ExtraBold.svg#Raleway-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Thin.eot');
+    src: local('Raleway Thin'), local('Raleway-Thin'),
+    url('../fonts/Raleway-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Raleway-Thin.woff2') format('woff2'),
+    url('../fonts/Raleway-Thin.woff') format('woff'),
+    url('../fonts/Raleway-Thin.ttf') format('truetype'),
+    url('../fonts/Raleway-Thin.svg#Raleway-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Regular.eot');
+    src: local('Raleway'), local('Raleway-Regular'),
+    url('../fonts/Raleway-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Raleway-Regular.woff2') format('woff2'),
+    url('../fonts/Raleway-Regular.woff') format('woff'),
+    url('../fonts/Raleway-Regular.ttf') format('truetype'),
+    url('../fonts/Raleway-Regular.svg#Raleway-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    box-sizing: border-box;
+    padding:	0;
+    margin:	0;
+}
+body{
+    font-family: "Raleway", Halvetica, sans-serif;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+header{
+    background-color: black;
+    height: 40px;
+}
+.container{
+    max-width: 1050px;
+    margin: 0 auto;
+}
+.logo{
+    color: #d4d4d4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    float: left;
+    padding-top: 10px;
+
+}
+header nav{
+
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700px;
+    float: right;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+header nav li{
+    float: left;
+    padding-left: 40px;
+
+}
+header nav li a{
+    color: #d4d4d4;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.section-1{
+    height: 400px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,eeeeee+100;Grey+Flat */
+    background: #eeeeee; /* Old browsers */
+    background: -moz-linear-gradient(top, #eeeeee 0%, #eeeeee 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #eeeeee 0%,#eeeeee 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #eeeeee 0%,#eeeeee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+}
+
+.slider-left{
+    width: 20px;
+    float: left;
+    padding-top: 120px;
+}
+.slider-left a{
+    text-decoration: none;
+    color: #24ba9f;
+    font-size: 40px;
+
+}
+.slider-right{
+    width: 20px;
+    float: left;
+    margin-top: 120px;
+}
+.slider-right a {
+    text-decoration: none;
+    color: #24ba9f;
+    font-size: 40px;
+
+}
+.slider-content{
+    width: 1010px;
+    float: left;
+}
+.container .slider-content .slider-image{
+    height: 320px;
+    width: 50%;
+    background-image: url("../images/black_chair.png");
+    background-repeat: no-repeat;
+    float: left;
+    background-size: 350px 300px;
+}
+.container .slider-content .slider-text{
+
+    width: 400px;
+    float: left;
+    margin-top: 100px;
+}
+h1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 27px;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+span{
+    color: #24ba9f;
+    font-weight: 700;
+}
+.slider text{
+
+}
+
+.slider-text p{
+    text-align: center;
+    font-size: 10px;
+    line-height: 15px;
+    margin-top: 15px;
+}
+.button{
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    font-size: 17px;
+    color: white;
+    background-color: #24ba9f;
+    text-align: center;
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+    line-height: 30px;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+.section-2{
+    height: 350px;
+    background-color: white;
+}
+
+.box-1{
+    width: 330px;
+    height: 225px;
+    margin-top: 25px;
+    float: left;
+    background-image: url("../images/box1_img.jpg");
+}
+
+.box-2{
+    width: 330px;
+    height: 225px;
+    margin-top: 25px;
+    margin-left: 25px;
+    float: left;
+    background-image: url("../images/box2_img.jpg");
+}
+.box-text{
+    width: 330px;
+    height: 250px;
+    border: 1px solid #dadada;
+    margin-top: 25px;
+    margin-left: 25px;
+    float: right;
+}
+.box-1-text{
+    background-color: rgba(241, 241, 241, 0.3);
+    height: 60px;
+    width: 330px;
+    margin-top: 150px;
+
+}
+.box-1-text h3{
+    margin-left: 10px;
+    padding-top: 10px;
+    border-bottom:5px solid #24ba9f;
+    display: inline-block;
+    line-height: 25px;
+    width: 150px;
+    font-size: 17px;
+    }
+.box-2-text{
+    background-color: rgba(241, 241, 241, 0.3);
+    height: 60px;
+    width: 330px;
+    margin-top: 150px;
+}
+.box-2-text h3{
+    margin-left: 10px;
+    padding-top: 10px;
+    border-bottom:5px solid #24ba9f;
+    display: inline-block;
+    line-height: 25px;
+    width: 150px;
+    font-size: 17px;
+}
+.box-text h3{
+    margin-left: 10px;
+    padding-top: 20px;
+    border-bottom:5px solid #24ba9f;
+    display: inline-block;
+    line-height: 25px;
+    width: 150px;
+    font-size: 17px;
+}
+.box-text p{
+    color: #888888;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.section-3{
+    background-color: #f1f1f1;
+    height: 730px;
+}
+.section-3 p{
+    font-size: 20px;
+    width: 320px;
+    border-bottom:5px solid #24ba9f;
+    display: inline-block;
+    color: #565656;
+    padding-top: 45px;
+
+}
+.price {
+    margin-top: 80px;
+    float: left;
+}
+.task-6b {
+    margin: 50px;
+    float: left;
+}
+.box{
+    width: 320px;
+    border: 3px solid #c2c2c2;
+    text-align: center;
+    position: relative;
+}
+.box .content h2{
+    margin-top: 30px;
+    color: #24ba9f;
+}
+.box .content p{
+    color: #424242;
+    margin-bottom: 35px;
+    border-bottom: none;
+}
+
+.box .head span{
+    position: absolute;
+    border-radius: 50%;
+    display: block;
+}
+
+.box .head .circle{
+    width: 66px;
+    height: 66px;
+    border: 3px solid black;
+    top: -45px;
+    left: 50%;
+    margin-left: -33px;
+    background-color: white;
+}
+.box .head .circle-inside{
+    width: 30px;
+    height: 30px;
+    background-color: #c2c2c2;
+    top: 15px;
+    left: 15px;
+}
+
+.box .content a{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    max-width: 135px;
+    text-decoration: none;
+}
