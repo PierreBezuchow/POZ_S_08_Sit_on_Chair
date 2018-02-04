@@ -2,107 +2,125 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>PierreBezuchow_Sit_on_Chair</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Sit_on_Chair</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <header>
+<div class="main-hero">
+    <header class="page-header">
         <div class="container">
-            <div class="box_header">
-                <a href="">
-                    <div class="logo"><p>SIT <span>ON</span> CHAIR</p></div>
-                </a>
-            </div>
-            <div class="box_header">
-                <nav>
-                    <ul>
-                        <li><a href="">o firmie</a></li>
-                        <li><a href="">galeria</a></li>
-                        <li><a href="">kontakt</a></li>
-                    </ul>
-                </nav>
-            </div>
+            <a class="page-logo" href="">
+                <div class="logo"><p>SIT <span>ON</span> CHAIR</p></div>
+            </a>
+            <nav class="page-nav">
+                <ul class="page-nav-list">
+                    <li>
+                        <a href="">o firmie</a>
+                        <ul class="page-nav-sublist">
+                            <li><a href="">aktualności</a></li>
+                            <li><a href="">nasz team</a></li>
+                            <li><a href="">historia</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">galeria</a></li>
+                    <li><a href="">kontakt</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
-    <div class="clearfix"></div>
     <section class="slider">
         <div class="container">
-            <div class="arrow">
-                <div class="arrow_left"> < </div>
+            <div class="arrow-box">
+                <a class="arrow-left" onclick="slideNext(-1)"> < </a>
+                <!--onclick - > https://www.w3schools.com/jsref/event_onclick.asp-->
             </div>
-            <div class="slider_content">
-                <div class="product_slider_photo"></div>
-                <div class="product_slider_info">
-                    <div class="slider_text">
+            <div class="slider-content">
+                <div class="slider-photo"></div>
+                <div class="slider-info">
+                    <div class="slider-text">
                         <h3>SIT <span>ON</span> OUR<span> CHAIR</span></h3>
                         <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet aperiam commodi deleniti dicta dolores facilis illum laborum libero, mollitia nostrum obcaecati quaerat quia quo rerum, sed temporibus vero vitae?</span></p>
                     </div>
                     <a href="">
-                         <div class="slider_button">ZOBACZ WIĘCEJ</div>
+                        <div class="slider-button">ZOBACZ WIĘCEJ</div>
                     </a>
                 </div>
             </div>
-            <div class="arrow">
-                <div class="arrow_right"> > </div>
-            </div>
-        </div>
-    </section>
-    <div class="clearfix"></div>
-    <section class="product_gallery">
-        <div class="container">
-            <div class="box_gallery">
-                <a href="">
-                    <div class="info_bar_gallery">
-                        <div>
-                            <h3>Chair CLAIR</h3>
-                            <div class="green_bar"></div>
-                        </div>
+            <div class="slider-content">
+                <div class="slider-photo"></div>
+                <div class="slider-info">
+                    <div class="slider-text">
+                        <h3>SIT <span>ON</span> OUR<span> CHAIR</span></h3>
+                        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet aperiam commodi deleniti dicta dolores facilis illum laborum libero, mollitia nostrum obcaecati quaerat quia quo rerum, sed temporibus vero vitae?</span></p>
                     </div>
-                </a>
-            </div>
-            <div class="box_gallery">
-                <a href="">
-                    <div class="info_bar_gallery">
-                        <div>
-                            <h3>Chair MARGARITA</h3>
-                            <div class="green_bar"></div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="box_gallery">
-                <a href="">
-                    <div class="info_bar_gallery1">
-                        <h3>Find all inputs</h3>
-                        <div class="green_bar"></div>
-                        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio rerum similique soluta veniam, veritatis vero voluptatibus? Sapiente, voluptas.
-                            <br><br>Lorem ipsum dolor sit amet.</span></p>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section>
-    <div class="clearfix"></div>
-    <section class="offer">
-        <div class="container">
-            <div class="title_offer">
-                <h3>CENNIK</h3>
-                <div class="green_bar"></div>
-            </div>
-            <div class="planBasic">
-                <div class="circle_out">
-                    <div class="circle_in"></div>
+                    <a href="">
+                        <div class="slider-button">ZOBACZ WIĘCEJ</div>
+                    </a>
                 </div>
+            </div>
+            <div class="slider-content">
+                <div class="slider-photo"></div>
+                <div class="slider-info">
+                    <div class="slider-text">
+                        <h3>SIT <span>ON</span> OUR<span> CHAIR</span></h3>
+                        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet aperiam commodi deleniti dicta dolores facilis illum laborum libero, mollitia nostrum obcaecati quaerat quia quo rerum, sed temporibus vero vitae?</span></p>
+                    </div>
+                    <a href="">
+                        <div class="slider-button">ZOBACZ WIĘCEJ</div>
+                    </a>
+                </div>
+            </div>
+            <div class="arrow-box">
+                <a class="arrow-right" onclick="slideNext(1)"> > </a>
+            </div>
+        </div>
+    </section>
+</div>
+<section class="gallery">
+    <div class="container">
+        <div class="gallery-box">
+            <a href="">
+                <div class="gallery-chair-name">
+                    <h3>Chair CLAIR</h3>
+                </div>
+            </a>
+        </div>
+        <div class="gallery-box">
+            <a href="">
+                <div class="gallery-chair-name">
+                    <h3>Chair MARGARITA</h3>
+                </div>
+            </a>
+        </div>
+        <div class="gallery-box">
+            <a href="">
+                <div class="gallery-chair-text">
+                    <h3>Find all inputs</h3>
+                    <p><span>Sit on chair Sit on chair Sit on chair Sit on chair Sit on chair</span>
+                    </p>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="offer">
+    <div class="container">
+        <div class="offer-name">
+            <h3>CENNIK</h3>
+        </div>
+        <div class="offer-content">
+            <div class="plan-basic offer-box">
                 <h2>BASIC PLAN</h2>
-                <div class="circle_price">
-                    <p>85<span class="upperIndex">99</span></p>
+                <div class="price-circle">
+                    <p>85<span class="upper-index">99</span></p>
                     <p>PLN/MSC</p>
                 </div>
-                <div class="Stripes">
-                    <div class="strip">
+                <div class="offer-stripes">
+                    <div class="offer-single-stripe">
                         <p>Zakup towaru + dowóz</p>
                     </div>
-                    <div class="strip">
+                    <div class="offer-single-stripe">
                         <p>Serwis</p>
                     </div>
                 </div>
@@ -110,23 +128,20 @@
                     <a class="link" href="">DOŁĄCZ</a>
                 </div>
             </div>
-            <div class="planStandard">
-                <div class="circle_out">
-                    <div class="circle_in"></div>
-                </div>
+            <div class="plan-basic offer-box">
                 <h2>STANDARD PLAN</h2>
-                <div class="circle_price">
-                    <p>95<span class="upperIndex">99</span></p>
+                <div class="price-circle">
+                    <p>95<span class="upper-index">99</span></p>
                     <p>PLN/MSC</p>
                 </div>
-                <div class="Stripes">
-                    <div class="strip">
+                <div class="offer-stripes">
+                    <div class="offer-single-stripe">
                         <p>Zakup towaru + dowóz</p>
                     </div>
-                    <div class="strip">
+                    <div class="offer-single-stripe">
                         <p>Serwis</p>
                     </div>
-                    <div class="strip">
+                    <div class="offer-single-stripe">
                         <p>Gwarancja 5 lat</p>
                     </div>
                 </div>
@@ -134,26 +149,23 @@
                     <a class="link" href="">DOŁĄCZ</a>
                 </div>
             </div>
-            <div class="planAdvanced">
-                <div class="circle_out">
-                    <div class="circle_in"></div>
-                </div>
+            <div class="plan-advanced offer-box">
                 <h2>ADVANCED PLAN</h2>
-                <div class="circle_price">
-                    <p>211<span class="upperIndex">00</span></p>
+                <div class="price-circle">
+                    <p>211<span class="upper-index">00</span></p>
                     <p>PLN/MSC</p>
                 </div>
-                <div class="Stripes">
-                    <div class="strip">
+                <div class="offer-stripes">
+                    <div class="offer-single-stripe">
                         <p>Zakup towaru + dowóz</p>
                     </div>
-                    <div class="strip">
+                    <div class="offer-single-stripe">
                         <p>Serwis</p>
                     </div>
-                    <div class="strip">
+                    <div class="offer-single-stripe">
                         <p>Gwarancja 6 lat</p>
                     </div>
-                    <div class="strip">
+                    <div class="offer-single-stripe">
                         <p>Porady projektanta</p>
                     </div>
                 </div>
@@ -162,66 +174,66 @@
                 </div>
             </div>
         </div>
-    </section>
-    <div class="clearfix"></div>
-    <section class="form">
-        <div class="container">
-            <div class="title_form">
-                <h3>KONTAKT</h3>
-                <div class="green_bar"></div>
-            </div>
-            <form>
-                <div class="group_one">
-                    <div class="form">
-                        <label for="username"></label>
-                        <input id="username" type="text" name="username" placeholder=" Imię"/>
-                    </div>
-                    <div class="form">
-                        <label for="email"></label>
-                        <input id="email" type="email" name="useremail" placeholder=" email"/>
-                    </div>
-                    <div class="form">
-                        <label for="about"></label>
-                        <textarea id="about" rows="5" cols="30" placeholder=" Wiadomość"></textarea>
-                    </div>
+    </div>
+</section>
+<section class="contact">
+    <div class="container">
+        <div class="form-title">
+            <h3>KONTAKT</h3>
+        </div>
+        <form>
+            <div class="form-row-1">
+                <div class="form">
+                    <label for="username"></label>
+                    <input id="username" type="text" name="username" placeholder=" Imię"/>
                 </div>
-                <div class="group_two">
-                    <div class="photo_form"></div>
+                <div class="form">
+                    <label for="email"></label>
+                    <input id="email" type="email" name="useremail" placeholder=" email"/>
+                </div>
+                <div class="form">
+                    <label for="about"></label>
+                    <textarea id="about" rows="5" cols="30" placeholder=" Wiadomość"></textarea>
+                </div>
+            </div>
+            <div class="form-row-2">
+                <div class="form-row-2-container">
+                    <div class="form-photo"></div>
                     <div class="form">
                         <label class="checkbox">
                             <input type="checkbox"/>
-                            <span class="check_ok"></span>
+                            <span class="check-ok"></span>
                             <span>Zgadzam się na przetawarzanie <br>
                             danych osobowych
                             </span>
                         </label>
                     </div>
                 </div>
-                <div class="button_container">
-                    <div class="button" >
+                <div class="button-container">
+                    <div class="contact-button" >
                         <input type="submit" value="WYŚLIJ">
                     </div>
                 </div>
-            </form>
+            </div>
+        </form>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="footer-left">
+            <p>Copyright &#169; 2017.|All Rights Reserved. -Sit On Chair</p>
         </div>
-    </section>
-    <div class="clearfix"></div>
-    <footer>
-        <div class="main_width">
-            <div class="box_rights">
-                <p>Copyright 2017.|All Rights Reserved. -Sit On Chair</p>
-            </div>
-            <div class="box_social">
-                <span><a href="https://www.flickr.com"></a></span>
-                <span><a href="https://vimeo.com"></a> </span>
-                <span><a href="https://pl.pinterest.com"></a> </span>
-                <span><a href="https://www.twitter.com"></a> </span>
-
-            </div>
-            <div class="box_name">
-                <p>SIT <b>ON</b> CHAIR</p>
-            </div>
+        <div class="footer-middle">
+            <span><a href="https://www.flickr.com"></a></span>
+            <span><a href="https://vimeo.com"></a> </span>
+            <span><a href="https://pl.pinterest.com"></a> </span>
+            <span><a href="https://www.twitter.com"></a> </span>
         </div>
-    </footer>
+        <div class="footer-right">
+            <p>SIT <b>ON</b> CHAIR</p>
+        </div>
+    </div>
+</footer>
+<script src="js/script.js" async></script>
 </body>
 </html>
